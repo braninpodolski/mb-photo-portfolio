@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script defer src="/js/script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+      \
+    ></script>
+
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Marshall Branin Video</title>
+  </head>
+  <body>
+    <header class="header">
+      <!-- <nav class="navigation">
+        <p class="heading-logo">Marshall Branin</p>
+        <div class="heading-links main-nav-list">
+          <a href="#gallery" class="nav-link">Photography</a>
+          <a href="#pricing" class="nav-link">Pricing</a>
+          <a href="#cta" class="btn">Book Now</a>
+        </div>
+      </nav> -->
+      <p class="heading-logo">Marshall Branin</p>
+      <nav class="main-nav">
+        <ul class="main-nav">
+          <li class="main-nav-list">
+            <a href="#gallery" class="main-nav-link">Photography</a>
+            <a href="gallery.html#gallery" class="main-nav-link">Gallery</a>
+            <a href="#pricing" class="main-nav-link">Pricing</a>
+            <a href="#cta" class="main-nav-link btn">Book Now</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon name="menu-outline" class="icon-mobile-nav"></ion-icon>
+        <ion-icon name="close-outline" class="icon-mobile-nav"></ion-icon>
+      </button>
+    </header>
+
+    <section class="section-hero hero-img">
+      <div class="container hero">
+        <h1 class="heading-primary">Power up your listing today!</h1>
+        <p class="hero-description">
+          We offer professional HD photography services to realtors and home
+          owners in South Jersey and surrounding areas. We're here to help you
+          sell your property faster and create a solid brand image!
+        </p>
+        <a href="#cta" class="btn btn--hero">Book Now!</a>
+      </div>
+    </section>
+
+    <section class="section-img-gallery" id="gallery">
+      <div class="gallery-container">
+        <p class="section-name">Photography</p>
+        <h2 class="section-description">Showcase your listings in crisp HDR</h2>
+        <div class="gallery">
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery1.jpg"
+              alt="Aerial photo of large house"
+              class="gallery-img"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery2.jpg"
+              alt="Aerial photo of backyard"
+              class="gallery-img"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery3.jpg"
+              alt="Wide angle photo of bedroom"
+              class="gallery-img"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery4.jpg"
+              alt="Wide angle photo of kitchen"
+              class="gallery-img"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery5.jpg"
+              alt="Photo of bathroom sink"
+              class="gallery-img"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery6.jpg"
+              alt="Photo of breakfast bar overlooking dining room"
+              class="gallery-img"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery7.jpg"
+              alt="Wide angle photo of kitchen"
+              class="gallery-img"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery8.jpg"
+              alt="Photo of bathroom with sink and shower"
+              class="gallery-img"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery9.jpg"
+              alt="Photo of furnished living room"
+              class="gallery-img"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery10.jpg"
+              alt="Alternate photo of furnished living room"
+              class="gallery-img"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery11.jpg"
+              alt="Wide angle photo of dining room"
+              class="gallery-img"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery12.jpg"
+              alt="Wide angle photo of master bedroom"
+              class="gallery-img"
+            />
+          </figure>
+        </div>
+        <div class="see-more-div">
+          <a href="gallery.html" class="see-more">See More &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pricing" id="pricing">
+      <div class="container-pricing">
+        <p class="section-name">Pricing</p>
+        <p class="section-description">
+          Supercharge your listing for an afforable price
+        </p>
+        <div class="grid grid--3-cols gap-lg">
+          <div class="pricing-plan">
+            <header class="plan-header">
+              <p class="plan-name">Photo</p>
+              <p class="plan-price"><span>$</span>250</p>
+            </header>
+            <ul class="plan-feature-list">
+              <li class="plan-feature">
+                <ion-icon
+                  name="checkmark-outline"
+                  class="pricing-icon margin-right-sm"
+                ></ion-icon
+                >Full HDR photo coverage
+              </li>
+              <li class="plan-feature">
+                <ion-icon
+                  name="checkmark-outline"
+                  class="pricing-icon margin-right-sm"
+                ></ion-icon
+                >2 Day turn around
+              </li>
+              <li class="plan-feature">
+                <ion-icon
+                  name="checkmark-outline"
+                  class="pricing-icon margin-right-sm"
+                ></ion-icon
+                >Aerial Photos
+              </li>
+              <li class="plan-feature">
+                <ion-icon
+                  name="checkmark-outline"
+                  class="pricing-icon margin-right-sm"
+                ></ion-icon
+                >1 Included revision
+              </li>
+              <li class="plan-feature">
+                <ion-icon
+                  name="close-outline"
+                  class="pricing-icon margin-right-sm"
+                ></ion-icon>
+              </li>
+              <li class="plan-feature">
+                <ion-icon
+                  name="close-outline"
+                  class="pricing-icon margin-right-sm"
+                ></ion-icon>
+              </li>
+            </ul>
+            <div class="sign-up">
+              <a class="btn book-btn" href="#cta">Book Now!</a>
+            </div>
+          </div>
+          <div class="pricing-plan">
+            <header class="plan-header">
+              <p class="plan-name">Video</p>
+              <p class="plan-price"><span>$</span>250</p>
+            </header>
+            <ul class="plan-feature-list">
+              <li class="plan-feature">
+                <ion-icon
+                  name="checkmark-outline"
+                  class="pricing-icon margin-right-sm"
+                ></ion-icon>
+                1 to 3 minute video
+              </li>
+              <li class="plan-feature">
+                <ion-icon
+                  name="checkmark-outline"
+                  class="pricing-icon margin-right-sm"
+                ></ion-icon
+                ><span>2 Day turn around</span>
+              </li>
+              <li class="plan-feature">
+                <ion-icon
+                  name="checkmark-outline"
+                  class="pricing-icon margin-right-sm"
+                ></ion-icon
+                >Licensed music
+              </li>
+              <li class="plan-feature">
+                <ion-icon
+                  name="checkmark-outline"
+                  class="pricing-icon margin-right-sm"
+                ></ion-icon
+                >1 Included revision
+              </li>
+              <li class="plan-feature">
+                <ion-icon
+                  name="close-outline"
+                  class="pricing-icon margin-right-sm"
+                ></ion-icon>
+              </li>
+              <li class="plan-feature">
+                <ion-icon
+                  name="close-outline"
+                  class="pricing-icon margin-right-sm"
+                ></ion-icon>
+              </li>
+            </ul>
+            <div class="sign-up">
+              <a class="btn book-btn" href="#cta">Book Now!</a>
+            </div>
+          </div>
+          <div class="pricing-plan combo-plan">
+            <header class="plan-header">
+              <p class="plan-name">Combo</p>
+              <p class="plan-price"><span>$</span>400</p>
+            </header>
+            <ul class="plan-feature-list">
+              <li class="plan-feature">
+                <ion-icon
+                  name="checkmark-outline"
+                  class="pricing-icon margin-right-sm"
+                ></ion-icon
+                >Full HDR photo coverage
+              </li>
+              <li class="plan-feature">
+                <ion-icon
+                  name="checkmark-outline"
+                  class="pricing-icon margin-right-sm"
+                ></ion-icon
+                ><span><strong>1 to 3 minute</strong> video</span>
+              </li>
+              <li class="plan-feature">
+                <ion-icon
+                  name="checkmark-outline"
+                  class="pricing-icon margin-right-sm"
+                ></ion-icon
+                ><span><strong>2 to 3</strong> Day turn around</span>
+              </li>
+              <li class="plan-feature">
+                <ion-icon
+                  name="checkmark-outline"
+                  class="pricing-icon margin-right-sm"
+                ></ion-icon
+                >Aerial Photos
+              </li>
+              <li class="plan-feature">
+                <ion-icon
+                  name="checkmark-outline"
+                  class="pricing-icon margin-right-sm"
+                ></ion-icon
+                >Licensed music
+              </li>
+              <li class="plan-feature">
+                <ion-icon
+                  name="checkmark-outline"
+                  class="pricing-icon margin-right-sm"
+                ></ion-icon
+                ><span><strong>2</strong> Included revisions</span>
+              </li>
+            </ul>
+            <div class="sign-up">
+              <a class="btn book-btn" href="#cta">Book Now!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-cta container" id="cta">
+      <div class="cta">
+        <div
+          class="cta-img-box"
+          role="img"
+          aria-label="photo of large house at sunset"
+        ></div>
+        <div class="cta-text-box">
+          <h2 class="heading-secondary">Book Now!</h2>
+          <p class="cta-text">
+            Affordable, beautiful real estate marketing content awaits! Book
+            now, and we'll get back to you promptly to confirm the details.
+          </p>
+          <form class="grid grid--2-cols cta-form" netlify>
+            <div>
+              <label for="email">Email</label>
+              <input
+                id="email"
+                type="email"
+                name="email"
+                placeholder="example@gmail.com"
+                required
+              />
+            </div>
+            <div>
+              <label for="address">Property Address</label>
+              <input
+                id="address"
+                type="text"
+                name="address"
+                placeholder="123 Example Rd, New York, NY"
+                required
+              />
+            </div>
+            <div>
+              <label for="package">Please select a package</label>
+              <select id="package" name="package" required>
+                <option value="">Please select a package</option>
+                <option value="">Photography Package</option>
+                <option value="">Video Package</option>
+                <option value="">Combo Package</option>
+              </select>
+            </div>
+            <button class="btn btn--form">Book Now!</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
